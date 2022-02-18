@@ -17,7 +17,7 @@ const getInfo = async(event) => {
     if(cityVal === ""){
         city_name.innerText = `Plz write the name before search`;
         datahide.classList.add("data_hide");
-    }else{
+    }//else{
 
         try{
            
